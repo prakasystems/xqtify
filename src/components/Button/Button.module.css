@@ -1,0 +1,27 @@
+/* src/components/Button/Button.module.css */
+.feedbackButton {
+    /* Colors */
+    background-color: var(--color-white); /* ✅ White button on green navbar */
+    color: var(--color-green); /* ✅ Green text */
+    
+    /* Font & Text */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+    /* Shape & Size */
+    padding: 10px 16px;
+    border-radius: 12px;
+    border: 2px solid var(--color-white);
+    
+    /* Cursor */
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .feedbackButton:hover {
+    background-color: transparent;
+    color: var(--color-white);
+    border-color: var(--color-white);
+  }

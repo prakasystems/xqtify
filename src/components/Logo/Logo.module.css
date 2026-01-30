@@ -1,0 +1,12 @@
+/* src/components/Logo/Logo.module.css */
+.logoContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .logo {
+    height: 34px;
+    width: auto;
+    filter: brightness(0) invert(1); /* ✅ यह black logo को white कर देगा */
+  }

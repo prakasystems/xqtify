@@ -1,0 +1,8 @@
+// .eslintrc.js (Project की root directory में create करें)
+module.exports = {
+  extends: ['react-app'],
+  rules: {
+    'no-unused-vars': 'warn',
+    'no-unreachable': 'warn'
+  }
+};
