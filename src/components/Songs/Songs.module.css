@@ -1,0 +1,26 @@
+.songsSection {
+    padding: 32px;
+    background-color: #121212;
+  }
+  
+  .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .tabs {
+    margin-bottom: 24px;
+  }
+  
+  .tab {
+    color: white !important;
+    text-transform: none !important;
+    font-weight: 500;
+  }
+  
+  .tab.Mui-selected {
+    color: #34c94b !important;
+  }
+  

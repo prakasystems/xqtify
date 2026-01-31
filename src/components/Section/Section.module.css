@@ -2,6 +2,7 @@
 .section {
     padding: 32px;
     background-color: #121212; /* Black background for section */
+    overflow: visible; 
   }
   
   .sectionHeader {

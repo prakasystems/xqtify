@@ -4,7 +4,7 @@ import styles from './Carousel.module.css';
 const RightNavigation = ({ onClick, disabled }) => {
   return (
     <button
-      className={`${styles.carouselButton} ${styles.right} ${disabled ? styles.disabled : ''}`}
+      className={`${styles.carouselButton} ${styles.right} ${disabled ? styles.disabled : ""}`}
       onClick={onClick}
       disabled={disabled}
       aria-label="Next slide"

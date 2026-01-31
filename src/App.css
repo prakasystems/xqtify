@@ -28,8 +28,4 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-white);
 }
-/* src/App.css में यह add करें */
-.card, .card * {
-  background-color: white !important;
-  color: black !important;
-}
+

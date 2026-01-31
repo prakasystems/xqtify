@@ -4,7 +4,10 @@ import styles from './Carousel.module.css';
 const LeftNavigation = ({ onClick, disabled }) => {
   return (
     <button
-      className={`${styles.carouselButton} ${styles.left} ${disabled ? styles.disabled : ''}`}
+      // className={`${styles.carouselButton} ${styles.left} ${disabled ? styles.disabled : ''}`}
+      className={`${styles.carouselButton} ${styles.left} ${
+        disabled ? styles.disabled : ""
+      }`}
       onClick={onClick}
       disabled={disabled}
       aria-label="Previous slide"

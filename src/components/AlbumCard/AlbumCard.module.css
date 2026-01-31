@@ -1,0 +1,46 @@
+.albumCard {
+    width: 160px;
+    cursor: pointer;
+  }
+  
+  .albumImageContainer {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .albumImage {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Follows chip */
+  .followsBadge {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 999px;
+  }
+  
+  .albumInfo {
+    margin-top: 8px;
+  }
+  
+  .albumTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
